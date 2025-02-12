@@ -1,0 +1,12 @@
+# Crie as pastas principais
+mkdir -p core/{perception,cognition,action} memory ethics tests docs/architecture
+
+# Crie os arquivos essenciais
+touch .env.example \
+      requirements.txt \
+      core/jarvis.py \
+      core/perception/speech.py \
+      core/cognition/decision_engine.py \
+      ethics/ethical_rules.yaml \
+      docker-compose.yml \
+      README.md
